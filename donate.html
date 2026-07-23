@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWA Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--==================================
+DONATION HERO
+===================================-->
+    <section class="donation-hero">
+        <!-- Hero Background Image -->
+        <div class="donation-hero-image">
+            <img src="images/services-ambulance.jpeg" alt="Donation Hero">
+        </div>
+        <!-- Dark Overlay -->
+        <div class="donation-hero-overlay"></div>
+        <div class="container">
+            <div class="donation-hero-content">
+                <div class="donation-hero-left">
+                    <!-- Breadcrumb -->
+                    <div class="donation-breadcrumb">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span>Donate</span>
+                    </div>
+                    <!-- Heading -->
+                    <h1>
+                        Your Donation,
+                        <br>
+                        Their
+                        <span>Lifeline</span>
+                    </h1>
+                    <!-- Divider -->
+                    <div class="hero-divider">
+                        <span></span>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <span></span>
+                    </div>
+                    <!-- Description -->
+                    <p>
+                        Your generous support helps us provide critical healthcare
+                        services and save more lives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================================
+DONATION FORM
+===================================-->
+    <section class="donation-form-section">
+        <div class="container">
+            <div class="donation-form-card">
+                <!--==============================
+            DONATION TYPE
+            ==============================-->
+                <div class="donation-block">
+                    <h3 class="donation-title">
+                        1. Choose Donation Type
+                    </h3>
+                    <div class="donation-type-grid">
+                        <div class="donation-type-item active">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>One Time</span>
+                        </div>
+                        <div class="donation-type-item">
+                            <i class="fa-regular fa-calendar"></i>
+                            <span>Monthly</span>
+                        </div>
+                        <div class="donation-type-item">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <span>Yearly</span>
+                        </div>
+                        <div class="donation-type-item">
+                            <i class="fa-solid fa-mosque"></i>
+                            <span>Zakat</span>
+                        </div>
+                        <div class="donation-type-item">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <span>Sadaqah</span>
+                        </div>
+                        <div class="donation-type-item">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Corporate</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==============================
+            AMOUNT
+            ==============================-->
+                <div class="donation-block">
+                    <h3 class="donation-title">
+                        2. Select Amount
+                    </h3>
+                    <div class="donation-amount-grid">
+                        <div class="donation-amount-item">
+                            <h4>PKR 1,000</h4>
+                            <p>Feed a Patient</p>
+                        </div>
+                        <div class="donation-amount-item">
+                            <h4>PKR 2,500</h4>
+                            <p>Medicine Support</p>
+                        </div>
+                        <div class="donation-amount-item active">
+                            <span class="popular-tag">
+                                Most Popular
+                            </span>
+                            <h4>PKR 5,000</h4>
+                            <p>Ambulance Support</p>
+                            <div class="amount-check">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="donation-amount-item">
+                            <h4>PKR 10,000</h4>
+                            <p>Hospital Support</p>
+                        </div>
+                        <div class="donation-amount-item">
+                            <h4>PKR 25,000</h4>
+                            <p>Save a Life</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==============================
+            CUSTOM AMOUNT
+            ==============================-->
+                <div class="donation-custom-row">
+                    <div class="donation-custom-box">
+                        <label>
+                            Custom Amount
+                        </label>
+                        <div class="donation-custom-input">
+                            <span>PKR</span>
+                            <input type="number" placeholder="Enter any amount">
+                        </div>
+                    </div>
+                    <label class="donation-anonymous">
+                        <input type="checkbox">
+                        <span>
+                            <i class="fa-regular fa-face-smile"></i>
+                            Make this donation anonymous
+                        </span>
+                    </label>
+                </div>
+                <!--==============================
+            PAYMENT METHOD
+            ==============================-->
+                <div class="payment-grid">
+                    <!-- Credit Card -->
+                    <div class="payment-item " data-payment="card">
+                        <img src="images/cards.png" alt="Card">
+                        <h5>Credit / Debit Card</h5>
+                    </div>
+                    <!-- EasyPaisa -->
+                    <div class="payment-item" data-payment="easypaisa">
+                        <img src="images/easypaisa.png" alt="EasyPaisa">
+                        <h5>EasyPaisa</h5>
+                    </div>
+                    <!-- JazzCash -->
+                    <div class="payment-item" data-payment="jazzcash">
+                        <img src="images/jazzcash.png" alt="JazzCash">
+                        <h5>JazzCash</h5>
+                    </div>
+                    <!-- Bank -->
+                    <div class="payment-item" data-payment="bank">
+                        <img src="images/bank.png" alt="Bank">
+                        <h5>Bank Transfer</h5>
+                    </div>
+                    <!-- Other -->
+                    <div class="payment-item" data-payment="other">
+                        <i class="fa-solid fa-ellipsis"></i>
+                        <h5>Other Methods</h5>
+                    </div>
+                </div>
+                <!--==================================
+PAYMENT DETAILS
+===================================-->
+                <div class="payment-details-wrapper">
+                    <div class="payment-details-card" id="credit-card-box">
+                        <h3>Credit / Debit Card Details</h3>
+                        <div class="payment-form-grid">
+                            <div class="payment-input">
+                                <label>Card Number</label>
+                                <div class="payment-input-icon">
+                                    <i class="fa-regular fa-credit-card"></i>
+                                    <input type="text" id="cardNumber" maxlength="19" placeholder="1234 5678 9012 3456">
+                                </div>
+                            </div>
+                            <div class="payment-input">
+                                <label>Card Holder Name</label>
+                                <input type="text" placeholder="John Doe">
+                            </div>
+                            <div class="payment-input">
+                                <label>Expiry Date</label>
+                                <input type="text" id="expiryDate" maxlength="5" placeholder="MM/YY">
+                            </div>
+                            <div class="payment-input">
+                                <label>CVV</label>
+                                <input type="password" id="cvv" maxlength="3" placeholder="123">
+                            </div>
+                        </div>
+                        <div class="supported-cards">
+                            <img src="images/visa.png" alt="Visa">
+                            <img src="images/mastercard.png" alt="MasterCard">
+                            <img src="images/paypak.png" alt="PayPak">
+                        </div>
+                    </div>
+                    <!--==========================
+    EASYPAISA
+    ==========================-->
+                    <div class="payment-details-card" id="easypaisa-box">
+                        <h3>EasyPaisa Number</h3>
+                        <div class="payment-input">
+                            <label>Mobile Number</label>
+                            <input type="text" placeholder="03XX XXXXXXX">
+                        </div>
+                    </div>
+                    <!--==========================
+    JAZZCASH
+    ==========================-->
+                    <div class="payment-details-card" id="jazzcash-box">
+                        <h3>JazzCash Number</h3>
+                        <div class="payment-input">
+                            <label>Mobile Number</label>
+                            <input type="text" placeholder="03XX XXXXXXX">
+                        </div>
+                    </div>
+                    <div class="payment-details-card" id="bank-box">
+                        <h3>Bank Transfer Details</h3>
+                        <div class="payment-form-grid">
+                            <div class="payment-input">
+                                <label>Bank Name</label>
+                                <input type="text" placeholder="Meezan Bank">
+                            </div>
+                            <div class="payment-input">
+                                <label>Transaction ID</label>
+                                <input type="text" placeholder="Transaction Number">
+                            </div>
+                        </div>
+                        <div class="payment-input upload-box">
+                            <label>Upload Payment Receipt</label>
+                            <input type="file">
+                        </div>
+                    </div>
+                    <!--==========================
+                             OTHER METHOD
+                    ==========================-->
+                    <div class="payment-details-card" id="other-box">
+                        <h3>Other Payment Method</h3>
+                        <p>
+                            Please contact our support team for alternative payment methods.
+                        </p>
+                    </div>
+                </div>
+                <!--==============================
+                        SUBMIT BUTTON
+                ==============================-->
+                <button class="donation-submit-btn">
+                    <i class="fa-solid fa-lock"></i>
+                    Proceed to Secure Payment
+                </button>
+                <div class="payment-note">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    Your payment is secure and encrypted.
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

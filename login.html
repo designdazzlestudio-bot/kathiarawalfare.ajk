@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWA Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--==================================
+LOGIN PAGE
+===================================-->
+    <section class="kwa-login-page">
+        <!-- Background -->
+        <div class="kwa-login-bg">
+            <img src="images/admin_service.jpeg" alt="Login Background">
+        </div>
+        <!-- Overlay -->
+        <div class="kwa-login-overlay"></div>
+        <div class="kwa-login-container">
+            <div class="kwa-login-wrapper">
+                <!--==========================
+            LEFT CONTENT
+            ==========================-->
+                <div class="kwa-login-left">
+                    <!-- Breadcrumb -->
+                    <div class="kwa-login-breadcrumb">
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <span>Login</span>
+                    </div>
+                    <!-- Heading -->
+                    <h1>
+                        Welcome
+                        <span>Back</span>
+                    </h1>
+                    <!-- Divider -->
+                    <div class="hero-divider">
+                        <span></span>
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <span></span>
+                    </div>
+                    <!-- Description -->
+                    <p>
+                        Access your account to manage donations,
+                        volunteer activities and stay connected
+                        with KWA.
+                    </p>
+                </div>
+                <!--==========================
+            LOGIN CARD
+            ==========================-->
+                <div class="kwa-login-card">
+                    <h2>Sign In</h2>
+                    <p>
+                        Login to continue to your dashboard.
+                    </p>
+                    <!-- Form start -->
+                    <form class="kwa-login-form">
+                        <!--==========================
+                    EMAIL
+                    ==========================-->
+                        <div class="kwa-login-group">
+                            <label>Email Address</label>
+                            <div class="kwa-login-input">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+                        <!--==========================
+                    PASSWORD
+                    ==========================-->
+                        <div class="kwa-login-group">
+                            <label>Password</label>
+                            <div class="kwa-login-input">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" placeholder="Enter your password" id="loginPassword" required>
+                                <i class="fa-regular fa-eye kwa-password-toggle"></i>
+                            </div>
+                        </div>
+                        <!--==========================
+                    OPTIONS
+                    ==========================-->
+                        <div class="kwa-login-options">
+                            <label class="kwa-remember">
+                                <input type="checkbox">
+                                Remember Me
+                            </label>
+                            <a href="#">
+                                Forgot Password?
+                            </a>
+                        </div>
+                        <!--==========================
+                    LOGIN BUTTON
+                    ==========================-->
+                        <button type="submit" class="kwa-login-btn">
+                            Login
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <!--==========================
+                    DIVIDER
+                    ==========================-->
+                        <div class="kwa-login-or">
+                            <span></span>
+                            <p>OR</p>
+                            <span></span>
+                        </div>
+                        <!--==========================
+                    GOOGLE LOGIN
+                    ==========================-->
+                        <a href="#" class="kwa-google-btn">
+                            <img src="images/google.jpeg" alt="Google">
+                            Continue with Google
+                        </a>
+                        <!--==========================
+                    REGISTER
+                    ==========================-->
+                        <div class="kwa-login-register">
+                            Don't have an account?
+                            <a href="register.html">
+                                Register Now
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
